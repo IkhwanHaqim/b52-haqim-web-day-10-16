@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.kotak {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    position: relative;
+}
+
+.container form {
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 10px;
+    
+} 
+ 
+.form .label-box {
+    margin-top: 20px;
+    width: 200px;
+}
+
+.label-box .label-style {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.label-box .input-style {
+    width: 167%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+}
+
+.form .column {
+    display: flex;
+    column-gap: 10px;
+}
+
+.label-box .label-style1 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.label-box .input-style1 {
+    width: 162px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.text-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box .label-style2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.text-box .input-area {
+    width: 334px;
+    padding: 30px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.form .technologies-box {
+    margin-top: 10px;
+}
+
+.technologies-box h3 {
+    margin-bottom: 10px;
+}
+
+.check-box {
+    margin-bottom: 20px;
+}
+
+.check-box .box1 {
+    display: flex;
+    gap: 10px;
+}
+
+.check-box .box2 {
+    display: flex;
+    gap: 10px;
+    margin-left: 70px;
+}
+
+.check-box .box3 {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.check-box .box4 {
+    display: flex;
+    gap: 10px;
+    margin-left: 82px;
+}
+
+.technologies-box .upload {
+    margin-top: 10px;
+}
+.input-blog-image-group img {
+    width: 40px;
+    height: 30px;
+}
+.input-blog-image-group {
+    width: 316px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+.input-blog-image-group label p {
+    font-size: 15px;
+  }
+  
+.input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upload {
+    font-weight: bold;
+}
+
+.btn-submit {
+    width: 100px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 235px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.card-list {
+    background-color: bisque;
+}
+.card-list .myproject {
+    margin-top: 210px;
+    text-align: center;
+}
+
+.card-container {
+    margin-top: 70px;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 330px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background-color: white;
+}
+
+.card img {
+    width: 300px;
+    height: 210px !important;
+    margin: 10px auto;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.card-container .card h2 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'popin';
+    margin-left: 15px;
+}
+
+.card-container .card .Duration {
+    padding: 0;
+    margin: 0;
+}
+
+.card-container .card .detail-card-content {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.card-container .card p {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    word-wrap: break-word;
+}
+.card-container .card .btn-card .btn-edit {
+    margin-left: 15px;
+    margin-top: 40px !important;
+    margin-right: 10px;
+    width: 130px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.card-container .card .btn-card .btn-delete {
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 130px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer
+}
+
+.btn .btn-primary {
+    background-color: green !important;
+}
+    
+@media only screen and (max-width: 576px) {
+    .form .column {
+        flex-direction: column;
+    }
+
+    .container h1 {
+        margin-left: 10px;
+    }
+
+}

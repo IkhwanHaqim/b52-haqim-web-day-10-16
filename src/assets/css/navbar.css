@@ -1,0 +1,55 @@
+.container-fluid {
+    padding: 10px;
+}
+
+.navbar-brand img {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.collapse .navbar-collapse {
+    display: block;
+}
+
+.nav-item .nav-link1 {
+    padding: 10px !important;
+    color: white !important;
+    background-color: green !important;
+    border-radius: 10px !important;
+    font-size: 15px;
+    text-decoration: none !important;
+}
+
+.btn-contact {
+    width: 100px;
+    background-color: green;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+@media (max-width: 575.98px) {
+
+    .navbar-brand img {
+        width: 50px;
+        margin-left: 5px;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+   .btn-contact {
+    display: none;
+   }
+
+   .collapse .navbar-collapse {
+    display: none  ;
+    }
+
+
+}

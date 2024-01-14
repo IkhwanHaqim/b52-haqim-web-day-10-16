@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.judul {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.information {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem 5rem;
+}
+
+.information .information1 {
+    margin-left: 20px;
+}
+
+.information .information1 .date {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.information .information1 .month {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.information .information1 .Technologies {
+    margin-top: 40px;
+}
+
+.icon-1 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.icon-1 .icon2 {
+    margin-left: 20px;
+}
+
+.icon-2 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.icon-2 .icon4 {
+    margin-left: 40px;
+}
+
+.content {
+    padding: 0.5rem 5rem;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .container {
+        width: 50%;
+        height: 100vh;
+    }
+
+    .judul {
+        width: 350px;
+    }
+    .judul h1 {
+        margin: 20px auto;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .information {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        padding: 0.5rem 1rem;
+    }
+
+    .information .image img {
+        width: 340px;
+        height: 200px;
+    }
+
+    .information .information1 {
+        margin-left: 5px;
+    }
+    
+    .content {
+        padding: 0.5rem 1rem;
+        margin-top: 30px;
+        text-align: justify;
+        width: 370px;
+    }
+}
